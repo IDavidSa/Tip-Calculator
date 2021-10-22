@@ -1,0 +1,74 @@
+1) Lembrar:
+-Linkar no head: Google Fonts space-mono
+-Dica da propriedade [data-error] no HTML e no CSS.
+-Retirar spinner do input number
+
+2) Cores do App
+
+---- Cor Primária----
+- Strong cyan: hsl(172, 67%, 45%)
+
+---- Cores Secundárias----
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
+
+---- Fonte-----
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 400, 500, 700
+
+
+3) Conteúdo do App
+
+
+ Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset
+
+
+Retirar setas do input number:
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+Javascript:
+
+1 - Fazer com que o valor de cada input seja armazenado
+	(fazer isso armazenando na variavel o input.value)
+ 1.1 - Conferir se todos os espaços estão preenchidos.
+
+2 - Fazer uma função que realize o calculo da gorjeta.
+ 2.2 - Fazer com que cada botão altere o valor da porcentagem da gorjeta
+	(usar o switch para isso).
+
+3 - Calcular o valor da gorjeta com base no número de pessoas. 
+
+4 - Exibir o valor da gorjeta e o valor total (cada um por pessoa).
+	
+
+
+
+
+
